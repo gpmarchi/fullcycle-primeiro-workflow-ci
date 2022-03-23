@@ -10,4 +10,4 @@ jobs:
       node-version: '14'
    - run: yarn
    - run: yarn test
-   - run: yarn index.js
+   - run: node index.js
