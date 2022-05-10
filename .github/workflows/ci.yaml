@@ -13,7 +13,7 @@ jobs:
      with:
       node-version: '14'
    - run: yarn
-   - run: yarn test
+   - run: yarn test:coverage
    - run: node src/index.js
    
    - name: Set up QEMU
